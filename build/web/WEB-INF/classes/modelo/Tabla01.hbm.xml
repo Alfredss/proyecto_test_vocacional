@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12/10/2016 05:07:28 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="modelo.Tabla01" table="tabla01" catalog="test" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="campo01" type="int">
+            <column name="campo01" not-null="true" />
+        </property>
+        <property name="campo02" type="int">
+            <column name="campo02" not-null="true" />
+        </property>
+        <property name="campo03" type="int">
+            <column name="campo03" not-null="true" />
+        </property>
+        <property name="campo04" type="int">
+            <column name="campo04" not-null="true" />
+        </property>
+        <property name="campo05" type="int">
+            <column name="campo05" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

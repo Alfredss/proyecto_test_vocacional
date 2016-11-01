@@ -1,0 +1,35 @@
+tml{
+  margin: 0px;
+  padding: 0px;
+}
+.boxlogin{
+  background: #E6E6E6;
+  border-radius: 4px;
+  margin: 50px auto;
+  width: 320px;
+} 
+input[type="submit"]{
+  margin-top: 10px; 
+  width: 280px;
+  cursor: pointer;
+  border-radius:20px;
+  margin-bottom: 0px;
+}
+input[type="  submit"]:hover{
+  opacity: 2px;
+}
+input[type="  submit"]:active{
+  transform: scale(0.9);
+}
+input{
+  margin-left: 20px;
+}
+input[type="text"]{
+  width: 280px;
+}
+input[type="password"]{
+  width: 280px;
+}
+label{
+  margin-left: 20px;
+}
