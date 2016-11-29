@@ -16,6 +16,14 @@
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>PrologTest</servlet-name>
+        <servlet-class>controlador.PrologTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PrologTest</servlet-name>
+        <url-pattern>/PrologTest</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30

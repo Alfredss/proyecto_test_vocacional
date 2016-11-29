@@ -30,6 +30,7 @@
     </head>
     <body background = "css/img/congruent_pentagon.png">
         <div class="container">
+            <div class="row">
             <header class="bg-info">
 		<div class="row">
 		<div class="col-xs-8 col-md-3">
@@ -43,6 +44,7 @@
 		</div>
 		</div>
             </header>
+            </div>
             
             <div class="row">
                 
@@ -53,11 +55,19 @@
             </div>
             <div>
                 decision:
-                <c:out value="${decision}"/>
+                ${decision}
             </div>
             <div class="row">
                 <div class="col-md-1"></div>
+                
                 <form action="testController.htm" method="post">
+                    <input type="radio" name="group01"/> Si
+                    <input type="radio" name="group01"/> No
+                    <input type="radio" name="group01"/> Intemedio
+                    <input type="submit" name="guardar"/>
+                </form>
+                
+                <form action="action">
                     <div id="accordion" class="col-xs-10">
 
                         <h3>1. ¿Te gusta brindar ayuda a las personas de manera directa?	</h3>
