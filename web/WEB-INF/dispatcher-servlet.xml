@@ -23,6 +23,8 @@
     
     <mvc:view-controller path="/estadistica.htm" view-name="estadistica"/>
     
+    <mvc:view-controller path="/integrantes.htm" view-name="integrantes"/>
+    
     
 
     

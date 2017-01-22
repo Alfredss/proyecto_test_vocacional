@@ -1,54 +1,63 @@
-<%-- 
-    Document   : test
-    Created on : 12/10/2016, 05:19:00 PM
-    Author     : ALFREDO
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Inicio</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
-        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+	<title>TEST VOCACIONAL</title>
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+						<span class="sr-only">Desplegar / ocultar menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.htm" class="navbar-brand active" >CIENCIAS DE LA SALUD</a>
+				</div>
+				<!--inicia menu-->
+				<div class="collapse navbar-collapse" id="navegacion-fm">
+					<ul class="nav navbar-nav">
+						<li ><a href="test.htm">Inicio</a></li>	
+						<li ><a href="estadistica.htm">RESULTADO</a></li>
+						<li ><a href="integrantes.htm">INTEGRANTES</a></li>
+
+					</ul>
+					<!--barra de busqueda-->
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="buscar">						
+						</div>
+						<button type="submit" class="btn btn-primary">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+				</div>	
+			</div>
+			
+		</nav>
+	</header>
+	
+
+	<!--aqui va el jhumbotron-->
+
+	<secton class="jumbotron">
+		<div class="container-ct ">
+			<h1>TEST VOCACIONAL</h1>
+			<p> De Ciencias De La Salud</p>
+		</div>
+	</secton>
         
-        <!--LINKS FUENTES DE LETRA-->
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-        
-        <script src="js/bootstrap.min.js"></script>
-    </head>
-    <body background="css/img/congruent_pentagon.png">
-        
-        <div class="container">
-            <header class="bg-info">
-		<div class="row">
-		<div class="col-xs-8 col-md-3">
-			<img src="css/img/logo_unsch.png" class="mediano">
-		</div>
-		<div class="cols-xs-1 col-md-6 text-center">
-			<h1>Proceso de Orientacion Vocacional para Carreras de la Salud</h1>
-		</div>
-		<div class="col-xs-8 col-md-3">
-			<img src="css/img/logo_is.jpg" class="mediano derecha">
-		</div>
-		</div>
-            </header>
-            
-            <div class="row">
-                
-                <div class="col-md-4 text-center bg-success letra_link"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><a href="index.htm">  <h5>Inicio</h5></a></div>
-                <div class="col-md-4 text-center bg-danger letra_link"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><a href="test.htm">  <h5>Test</h5></a></div>
-                <div class="col-md-4 text-center bg-success letra_link"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span><a href="estadistica.htm">  <h5>Estadisticas</h5></a></div>
-                
-            </div>
-            
-            <div class="row">
-                
-            </div>
-            
-        </div>
-    </body>
+	<footer></footer>
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
 </html>

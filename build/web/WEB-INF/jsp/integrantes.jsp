@@ -18,15 +18,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="index.htm" class="navbar-brand">CIENCIAS DE LA SALUD</a>
+					<a href="index.htm" class="navbar-brand" >CIENCIAS DE LA SALUD</a>
 				</div>
 				<!--inicia menu-->
 				<div class="collapse navbar-collapse" id="navegacion-fm">
 					<ul class="nav navbar-nav">
 						<li ><a href="test.htm">Inicio</a></li>	
-						<li class="active"><a href="estadistica.htm">RESULTADO</a></li>
-						<li ><a href="integrantes.htm">INTEGRANTES</a></li>
-
+						<li ><a href="estadistica.htm">RESULTADO</a></li>
+                                                <li class="active"><a href="integrantes.htm">INTEGRANTES</a></li>
 					</ul>
 					<!--barra de busqueda-->
 					<form class="navbar-form navbar-right" role="search">
@@ -48,10 +47,34 @@
 
 	<secton class="jumbotron">
 		<div class="container-ct ">
-			<h1>RESULTADO DEL TEST</h1>
-			<h1 id="l" class="text-center">${decision}</h1>
+			<h1>TEST VOCACIONAL</h1>
+			<p> De Ciencias De La Salud</p>
 		</div>
 	</secton>
+<div class="container">
+    <ul>
+        <li>
+            <h2>APERRIGUE CABRERA, Renan</h2>
+        </li>
+        <li>
+            <h2>CASTRO BERROCAL, Paulo</h2>
+        </li>
+        <li>
+            <h2>BARRIENTOS CONDE , Talia</h2>
+        </li>
+        <li>
+            <h2>MEDRANO PAQUILLAURI, Anibal</h2>
+        </li>
+        <li>
+            <h2>RAMIREZ PIZARRO, Marvin</h2>
+        </li>
+        <li>
+            <h2>YUPANQUI ALARCON, Alfredo</h2>
+        </li>
+    </ul>
+    
+</div>
+        
 	<footer></footer>
 
 
@@ -60,3 +83,4 @@
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
